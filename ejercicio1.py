@@ -6,7 +6,7 @@ class Alumno():     #Creamos la clase alumno
         self.nota=nota
         print("El alumno {} con nota {} se ha creado con éxito".format(self.nombre,self.nota))
     
-    def estado_nota(self):  #Creamos una función con la cual vemos si el atributo nota es mayor o igual a 5 y nos devuelve si esta aprobado o no
+    def calificación(self):  #Creamos una función con la cual vemos si el atributo nota es mayor o igual a 5 y nos devuelve si está aprobado o no
         if (self.nota)>=5:
             print("El alumno está aprobado")
         else:
@@ -14,10 +14,10 @@ class Alumno():     #Creamos la clase alumno
 
 
 alumno1=Alumno("Pedro",8) #Creamos distintos objetos con distintos atributos y comprobamos si están aprobados o suspensos
-alumno1.estado_nota()
+alumno1.calificación()
 alumno2=Alumno("José",6)
-alumno2.estado_nota()
+alumno2.calificación()
 alumno3=Alumno("Víctor",7)
-alumno3.estado_nota()
+alumno3.calificación()
 alumno4=Alumno("Fernando",4)
-alumno4.estado_nota()
+alumno4.calificación()
