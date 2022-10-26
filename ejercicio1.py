@@ -4,7 +4,7 @@ class Alumno():     #Creamos la clase alumno
     def __init__(self, nombre, nota):   #Le asignamos los atributos de nombre y nota y devolvemos si el alumno se creo de manera exitosa
         self.nombre=nombre
         self.nota=nota
-        print("El alumno {} con nota {} se ha creado con éxito".format(self.nombre,self.nota))
+        print("El alumno se ha creado con éxito")
     
     def calificación(self):  #Creamos una función con la cual vemos si el atributo nota es mayor o igual a 5 y nos devuelve si está aprobado o no
         if (self.nota)>=5:
